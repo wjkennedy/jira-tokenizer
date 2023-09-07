@@ -32,7 +32,7 @@ You can then run the script by providing your Jira URL, API token, and query str
 
 You can also specify the limit of the results returned from Jira query and the number of top words to keep.
 
-##Output
+## Output
 
 The script will output the following:
 
@@ -41,6 +41,7 @@ The script will output the following:
 - A alluvial flow diagram of the top words and their corresponding project key in PNG format
 
 ## Caveats
+
 The script only retrieves the first 1000 results of the query by default. You can increase this by modifying the maxResults parameter in the Jira API query.
 The script uses the NLTK library's stopwords list for removing stop words. This list is in English, so if your Jira issues contain text in a different language, you may need to modify the script to use a different stopwords list.
 The script normalizes the text, but it does not perform stemming or lemmatization.
