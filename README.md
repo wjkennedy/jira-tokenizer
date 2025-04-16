@@ -5,7 +5,7 @@ This script utilizes the Jira Python API and NLTK library to extract, tokenize, 
 ## Usage
 To use this script, you will need to have a Jira account and an API token. You will also need to have the following Python packages installed:
 
-- jira
+-jira
 
 -nltk
 
